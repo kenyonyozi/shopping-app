@@ -1,15 +1,9 @@
 import React from 'react';
 import {Grid} from '@material-ui/core';
 
-import Product from './Product/Product';
+import Product from '../Product/Product';
 import useStyles from './styles'
 
-
-//prducts arrary
-// const products = [
-//     { id:1, name: 'shoes' , description: 'running shoes', price:'$20', image: 'https://unsplash.com/photos/Mjz4YVIy69Y'},
-//     { id:2, name: 'shoes' , description: 'dancing shoes', price:'$10', image: 'https://unsplash.com/photos/Mjz4YVIy69Y'},
-// ];
 
 const Products = ({products, onAddToCart}) => {
     const classes = useStyles();
